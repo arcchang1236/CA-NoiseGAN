@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/arcchang1236/CA-NoiseGAN/static/css/main.523f09c5.chunk.css",
-    "main.js": "/arcchang1236/CA-NoiseGAN/static/js/main.5d627d70.chunk.js",
-    "main.js.map": "/arcchang1236/CA-NoiseGAN/static/js/main.5d627d70.chunk.js.map",
-    "runtime-main.js": "/arcchang1236/CA-NoiseGAN/static/js/runtime-main.078caf07.js",
-    "runtime-main.js.map": "/arcchang1236/CA-NoiseGAN/static/js/runtime-main.078caf07.js.map",
-    "static/js/2.3da902e6.chunk.js": "/arcchang1236/CA-NoiseGAN/static/js/2.3da902e6.chunk.js",
-    "static/js/2.3da902e6.chunk.js.map": "/arcchang1236/CA-NoiseGAN/static/js/2.3da902e6.chunk.js.map",
-    "index.html": "/arcchang1236/CA-NoiseGAN/index.html",
-    "precache-manifest.659eb1e5d13dbfbc2078a760de3512b8.js": "/arcchang1236/CA-NoiseGAN/precache-manifest.659eb1e5d13dbfbc2078a760de3512b8.js",
-    "service-worker.js": "/arcchang1236/CA-NoiseGAN/service-worker.js",
-    "static/css/main.523f09c5.chunk.css.map": "/arcchang1236/CA-NoiseGAN/static/css/main.523f09c5.chunk.css.map",
-    "static/js/2.3da902e6.chunk.js.LICENSE.txt": "/arcchang1236/CA-NoiseGAN/static/js/2.3da902e6.chunk.js.LICENSE.txt"
+    "main.css": "/CA-NoiseGAN/static/css/main.523f09c5.chunk.css",
+    "main.js": "/CA-NoiseGAN/static/js/main.2eaa4253.chunk.js",
+    "main.js.map": "/CA-NoiseGAN/static/js/main.2eaa4253.chunk.js.map",
+    "runtime-main.js": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js",
+    "runtime-main.js.map": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js.map",
+    "static/js/2.3da902e6.chunk.js": "/CA-NoiseGAN/static/js/2.3da902e6.chunk.js",
+    "static/js/2.3da902e6.chunk.js.map": "/CA-NoiseGAN/static/js/2.3da902e6.chunk.js.map",
+    "index.html": "/CA-NoiseGAN/index.html",
+    "precache-manifest.e711242e38485937af0322cf226ecf7e.js": "/CA-NoiseGAN/precache-manifest.e711242e38485937af0322cf226ecf7e.js",
+    "service-worker.js": "/CA-NoiseGAN/service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "/CA-NoiseGAN/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.3da902e6.chunk.js.LICENSE.txt": "/CA-NoiseGAN/static/js/2.3da902e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.078caf07.js",
+    "static/js/runtime-main.2ecb35e6.js",
     "static/js/2.3da902e6.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.5d627d70.chunk.js"
+    "static/js/main.2eaa4253.chunk.js"
   ]
 }
