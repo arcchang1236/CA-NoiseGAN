@@ -7,8 +7,12 @@ The implementation of ECCV 2020 paper *"Learning Camera-Aware Noise Models"*
 - ***Long Video: https://youtu.be/_gScv9bAdTE*** 
 
 ## Highlights
-
-[TODO]
+##### Modeling imaging sensor noise is a fundamental problem for image processing and computer vision applications. While most previous works adopt statistical noise models, real-world noise is far more complicated and beyond what these models can describe. To tackle this issue, we propose a data-driven approach, where a generative noise model is learned from real-world noise. The proposed noise model is camera-aware, that is, different noise characteristics of different camera sensors can be learned simultaneously, and a single learned noise model can generate different noise for different camera sensors. Experimental results show that our method quantitatively and qualitatively outperforms existing statistical noise models and learning-based methods.
+##### Our main contributions are summarized as follows:
+- Propose a learning-based generative model for camera sensor noise.
+- Achieve camera awareness by leveraging camera-specific Poisson-Gaussian noise and a camera characteristics encoding network.
+- Design a novel feature matching loss for signal-dependent patterns, whichleads to significant improvement of visual quality.
+- Outperform state-of-the-art noise modeling methods and improve image de-noising performance.
 
 ## Prerequisities
 - Pytorch >= 1.1.0 
@@ -17,16 +21,16 @@ The implementation of ECCV 2020 paper *"Learning Camera-Aware Noise Models"*
 
 ## Quick Start
 
-##### <Step 1> Download test data
+#### <Step 1> Download test data
 
 You need to download our test data ***[link]*** and unzip them first.
 Then, you can change the *data_dir* in **config.yml** into your data path.
 
-##### <Step 2> Download the checkpoints of denoisers and noise models
+#### <Step 2> Download the checkpoints of denoisers and noise models
 
 You should download the checpoints file ***[link]*** and unzip them into the root directory.
 
-##### <Step 3> Test the denoisers and noise models
+#### <Step 3> Test the denoisers and noise models
 
 For denoisers, 
 ```bash
@@ -41,7 +45,7 @@ python test_noise_models.py --config config.yml
 
 You need to check the correctness of each path in config.yml. Moreover, you can modify the amount of samples and patch size. See config.yml for more detail.
 
-##### <Step 4> Visualization
+#### <Step 4> Visualization
 
 The results will be saved in **samples/** .
 
