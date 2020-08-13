@@ -1,0 +1,18 @@
+# General
+data_dir: /fakehome/arc/Desktop/noiseflow/data/testset/Data
+# For test_denoiser.py
+denoiser:
+  checkpoint_dir: checkpoints/denoiser
+  sample_dir_png: samples/png/denoiser
+  sample_dir_mat: samples/mat/denoiser
+  patch_size: [2048, 2048]
+  sample_amount: 3
+# For test_noise_models.py
+noise_model:
+  checkpoint_ours: checkpoints/noise_model/ours.pth
+  checkpoint_dir_nf: checkpoints/noise_model/NoiseFlow
+  sample_dir_png: samples/png/noise_model
+  sample_dir_mat: samples/mat/noise_model
+  patch_size: [128, 128]
+  sample_amount: 5
+  
