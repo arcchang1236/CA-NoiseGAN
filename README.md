@@ -1,56 +1,76 @@
-# CA-NoiseGAN
+# [ECCV'20] CA-NoiseGAN
 
-(We will release all test data and results before Aug.23, please follow up our repository~)
+![Python version support](https://img.shields.io/badge/python-3.6-blue.svg)
+![PyTorch version support](https://img.shields.io/badge/pytorch-1.1.0-red.svg)
 
-The implementation of ECCV 2020 paper *"Learning Camera-Aware Noise Models"*
+***(News!)*** *We will release all test data and results before Aug.23, please watch our repository for newest update*  
 
-- ***Arxiv:*** [TODO]
-- ***Project Website: https://arcchang1236.github.io/CA-NoiseGAN/***
-- ***Abstract Video: https://youtu.be/_VWN8oLk68Q*** 
-- ***Long Video: https://youtu.be/_gScv9bAdTE*** 
+**[Project](https://arcchang1236.github.io/CA-NoiseGAN/)** | **Paper** | **[Abstract](https://youtu.be/_VWN8oLk68Q)** | **[Long Video](https://youtu.be/_gScv9bAdTE)**
 
-## Highlights
-##### Modeling imaging sensor noise is a fundamental problem for image processing and computer vision applications. While most previous works adopt statistical noise models, real-world noise is far more complicated and beyond what these models can describe. To tackle this issue, we propose a data-driven approach, where a generative noise model is learned from real-world noise. The proposed noise model is camera-aware, that is, different noise characteristics of different camera sensors can be learned simultaneously, and a single learned noise model can generate different noise for different camera sensors. Experimental results show that our method quantitatively and qualitatively outperforms existing statistical noise models and learning-based methods.
-##### Our main contributions are summarized as follows:
-- Propose a learning-based generative model for camera sensor noise.
-- Achieve camera awareness by leveraging camera-specific Poisson-Gaussian noise and a camera characteristics encoding network.
-- Design a novel feature matching loss for signal-dependent patterns, whichleads to significant improvement of visual quality.
-- Outperform state-of-the-art noise modeling methods and improve image de-noising performance.
+## Overview
 
-## Prerequisities
-- Pytorch >= 1.1.0 
-- [Noise Flow] Tensorflow 1.13.0, tensorflow-probability >= 0.5.0
-- Python >= 3.6, Ubuntu 16.04, cuda-10.1
+***CA-NoiseGAN*** is a **PyTorch** implementation of  
+*"Learning Camera-Aware Noise Models"*,  
+[Ke-Chi Chang](http://arcchang1236.github.io/), Ren Wang, Hung-Jin Lin, [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), Chia-Ping Chen, Yu-Lin Chang, [Hwann-Tzong Chen](https://htchen.github.io/)  
+in **European Conference on Computer Vision (ECCV) 2020** conference.
 
-## Quick Start
+<img src='imgs/archi.jpg' width='95%' />
 
-#### <Step 1> Download test data
+**Modeling imaging sensor noise** is a fundamental problem for image processing and computer vision applications. While most previous works adopt statistical noise models, real-world noise is far more complicated and beyond what these models can describe. To tackle this issue, we propose a data-driven approach, where **a generative noise model is learned from real-world noise**. The proposed noise model is camera-aware, that is, **different noise characteristics of different camera sensors can be learned** simultaneously, and a **single learned noise model can generate different noise for different camera sensors**. Experimental results show that our method quantitatively and qualitatively outperforms existing statistical noise models and learning-based methods.
 
-You need to download our test data ***[link]*** and unzip them first.
-Then, you can change the *data_dir* in **config.yml** into your data path.
+<img src='imgs/results.jpg' width='100%' />
 
-#### <Step 2> Download the checkpoints of denoisers and noise models
 
-You should download the checpoints file ***[link]*** and unzip them into the root directory.
+## Requirements
+This test code is implemented under **Python3**.  
+Following libraries are required:
 
-#### <Step 3> Test the denoisers and noise models
+- [PyTorch](https://pytorch.org/) >= 1.1
+- [scipy](https://www.scipy.org/)
+- [scikit-image](https://scikit-image.org/)
 
-For denoisers, 
-```bash
-python test_denoisers.py --config config.yml
-```
+If you want to visualize the results of Noise Flow, the libraries are also required:
 
-For noise models,
+- [TensorFlow](https://www.tensorflow.org/) = 1.13.0
+- [tensorflow-probability](https://pypi.org/project/tensorflow-probability/) >= 0.5.0
 
-```bash
-python test_noise_models.py --config config.yml
-```
 
-You need to check the correctness of each path in config.yml. Moreover, you can modify the amount of samples and patch size. See config.yml for more detail.
 
-#### <Step 4> Visualization
+## Usage
 
-The results will be saved in **samples/** .
+1. **Prepare Data**  
+   We prepare our test data in *[Google Drive]* and they are totally derived from SIDD dataset.  
+   Then, you can change the `data_dir` in `config.yml` into your data path.  
+
+2. **Download Pretrained Models**  
+   We provide pretrained baseline models of noise models and denoisers in *[Google Dirve]*.  
+   Please unzip them under the root directory.
+
+3. **Prepare Runtime Environment**  
+   ```shell
+   pip install -r requirements.txt
+   ```
+4. **Test the Noise Models and Denoisers**  
+   You need to check the correctness of each path in `config.yml`.  
+   Moreover, you can modify the amount of samples and patch size. See config.yml for more detail.
+	- **Noise Models**
+	  ```shell
+	  python test_noise_models.py --config config.yml
+	  ```
+
+    - **Denoisers**
+	  ```shell
+	  python test_denoisers.py --config config.yml
+	  ```
+
+5. **Visual Results**  
+   The results will be saved in `./samples/`.
+
+## Resources
+- [SIDD Dataset](https://www.eecs.yorku.ca/~kamel/sidd/)
+- [Noise Flow](https://github.com/BorealisAI/noise_flow) (Tensorflow)
+- [Simple Camera Pipeline](https://github.com/AbdoKamel/simple-camera-pipeline) (Python, MATLAB)
+
 
 ## Citation
 ```
@@ -62,5 +82,5 @@ The results will be saved in **samples/** .
   }
 ```
 
-## Contact
-If you find any problem, please feel free to contact me. (sky1236@gapp.nthu.edu.tw)
+## Acknowledgement
+- [Mediatek Inc.](https://www.mediatek.tw/)
