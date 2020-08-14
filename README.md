@@ -1,4 +1,7 @@
 # CA-NoiseGAN
+
+(We will release all test data and results before Aug.23, please follow up our repository~)
+
 The implementation of ECCV 2020 paper *"Learning Camera-Aware Noise Models"*
 
 - ***Arxiv:*** [TODO]
