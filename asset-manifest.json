@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/CA-NoiseGAN/static/js/main.bddaa833.chunk.js",
-    "main.js.map": "/CA-NoiseGAN/static/js/main.bddaa833.chunk.js.map",
+    "main.js": "/CA-NoiseGAN/static/js/main.8e3865b0.chunk.js",
+    "main.js.map": "/CA-NoiseGAN/static/js/main.8e3865b0.chunk.js.map",
     "runtime-main.js": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js",
     "runtime-main.js.map": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js.map",
     "static/js/2.4f7df849.chunk.js": "/CA-NoiseGAN/static/js/2.4f7df849.chunk.js",
     "static/js/2.4f7df849.chunk.js.map": "/CA-NoiseGAN/static/js/2.4f7df849.chunk.js.map",
     "index.html": "/CA-NoiseGAN/index.html",
-    "precache-manifest.57332e801841166d33e6e94b4b227c15.js": "/CA-NoiseGAN/precache-manifest.57332e801841166d33e6e94b4b227c15.js",
+    "precache-manifest.3badea5be070a699925326e245c34ccf.js": "/CA-NoiseGAN/precache-manifest.3badea5be070a699925326e245c34ccf.js",
     "service-worker.js": "/CA-NoiseGAN/service-worker.js",
     "static/js/2.4f7df849.chunk.js.LICENSE.txt": "/CA-NoiseGAN/static/js/2.4f7df849.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ecb35e6.js",
     "static/js/2.4f7df849.chunk.js",
-    "static/js/main.bddaa833.chunk.js"
+    "static/js/main.8e3865b0.chunk.js"
   ]
 }
