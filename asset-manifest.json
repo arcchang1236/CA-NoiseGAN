@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/CA-NoiseGAN/static/js/main.4054bb2c.chunk.js",
-    "main.js.map": "/CA-NoiseGAN/static/js/main.4054bb2c.chunk.js.map",
+    "main.js": "/CA-NoiseGAN/static/js/main.ccd35186.chunk.js",
+    "main.js.map": "/CA-NoiseGAN/static/js/main.ccd35186.chunk.js.map",
     "runtime-main.js": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js",
     "runtime-main.js.map": "/CA-NoiseGAN/static/js/runtime-main.2ecb35e6.js.map",
-    "static/js/2.5139fb81.chunk.js": "/CA-NoiseGAN/static/js/2.5139fb81.chunk.js",
-    "static/js/2.5139fb81.chunk.js.map": "/CA-NoiseGAN/static/js/2.5139fb81.chunk.js.map",
+    "static/js/2.dbe77c95.chunk.js": "/CA-NoiseGAN/static/js/2.dbe77c95.chunk.js",
+    "static/js/2.dbe77c95.chunk.js.map": "/CA-NoiseGAN/static/js/2.dbe77c95.chunk.js.map",
     "index.html": "/CA-NoiseGAN/index.html",
-    "precache-manifest.11f494442d17c4273d4a0500b19ed5d4.js": "/CA-NoiseGAN/precache-manifest.11f494442d17c4273d4a0500b19ed5d4.js",
+    "precache-manifest.cfd611dae3696b965c4bde216d230b0b.js": "/CA-NoiseGAN/precache-manifest.cfd611dae3696b965c4bde216d230b0b.js",
     "service-worker.js": "/CA-NoiseGAN/service-worker.js",
-    "static/js/2.5139fb81.chunk.js.LICENSE.txt": "/CA-NoiseGAN/static/js/2.5139fb81.chunk.js.LICENSE.txt"
+    "static/js/2.dbe77c95.chunk.js.LICENSE.txt": "/CA-NoiseGAN/static/js/2.dbe77c95.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ecb35e6.js",
-    "static/js/2.5139fb81.chunk.js",
-    "static/js/main.4054bb2c.chunk.js"
+    "static/js/2.dbe77c95.chunk.js",
+    "static/js/main.ccd35186.chunk.js"
   ]
 }
