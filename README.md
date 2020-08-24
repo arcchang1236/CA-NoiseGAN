@@ -3,11 +3,7 @@
 ![Python version support](https://img.shields.io/badge/python-3.6-blue.svg)
 ![PyTorch version support](https://img.shields.io/badge/pytorch-1.1.0-red.svg)
 
-***(News!)*** *Our project website and test code are complete now.*  
-***(News!)*** *All materials are uploaded on [Google Drive](https://drive.google.com/drive/folders/1jnv9rKEv1uTO7uyAf5fQCBHPL_4PCrhj?usp=sharing), feel free to download them.*  
-***(News!)*** *We will update the link of arXiv paper on 8/24 Mon.*
-
-**[Project](https://arcchang1236.github.io/CA-NoiseGAN/)** | **[Paper](https://drive.google.com/file/d/1G2lc-gZlXI_RrEhjc7ojtYOUNiEApxxj/view?usp=sharing)** | **[Abstract](https://youtu.be/_VWN8oLk68Q)** | **[Long Video](https://youtu.be/_gScv9bAdTE)**
+**[Project](https://arcchang1236.github.io/CA-NoiseGAN/)** | **[Paper](https://arxiv.org/abs/2008.09370)** | **[Abstract](https://youtu.be/_VWN8oLk68Q)** | **[Long Video](https://youtu.be/_gScv9bAdTE)**
 
 ## Overview
 
@@ -68,7 +64,14 @@ If you want to visualize the results of Noise Flow, the libraries are also requi
 
 ## Citation
 ```
-Waiting for arXiv submission...
+@misc{chang2020learning,
+    title={Learning Camera-Aware Noise Models},
+    author={Ke-Chi Chang and Ren Wang and Hung-Jin Lin and Yu-Lun Liu and Chia-Ping Chen and Yu-Lin Chang and Hwann-Tzong Chen},
+    year={2020},
+    eprint={2008.09370},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
 
 ## Resources
