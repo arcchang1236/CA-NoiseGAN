@@ -64,11 +64,11 @@ If you want to visualize the results of Noise Flow, the libraries are also requi
 
 ## Citation
 ```
-@InProceedings{CANoiseGAN,
+@InProceedings{chang2020learning,
 	author = {Chang, Ke-Chi and Wang, Ren and Lin, Hung-Jin and Liu, Yu-Lun and Chen, Chia-Ping and Chang, Yu-Lin and Chen, Hwann-Tzong},
 	title = {Learning Camera-Aware Noise Models},
-	booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-	year = {2020}
+	booktitle= {Computer Vision -- ECCV 2020},
+	year= {2020},
 }
 ```
 
