@@ -63,7 +63,7 @@ If you want to visualize the results of Noise Flow, the libraries are also requi
    The results will be saved in `./samples/`, including raw images and sRGB images. We provide the metrices we used in our paper, you can evaluate the quantitative results of each model, too. 
 
 ## Citation
-```
+``` bibtex
 @InProceedings{chang2020learning,
 	author={Chang, Ke-Chi and Wang, Ren and Lin, Hung-Jin and Liu, Yu-Lun and Chen, Chia-Ping and Chang, Yu-Lin and Chen, Hwann-Tzong},
 	title={Learning Camera-Aware Noise Models},
